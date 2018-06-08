@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "process"
-version = "1.6.1-1"
--- LuaDist source
+version = "1.7.0-1"
 source = {
-  tag = "1.6.1-1",
-  url = "git://github.com/LuaDist-testing/process.git"
+    url = "git://github.com/mah0x211/lua-process.git",
+    tag = "v1.7.0"
 }
--- Original source
--- source = {
---     url = "git://github.com/mah0x211/lua-process.git",
---     tag = "v1.6.1"
--- }
 description = {
     summary = "process module",
     homepage = "https://github.com/mah0x211/lua-process",
@@ -42,3 +34,4 @@ build = {
         LIB_EXTENSION   = "$(LIB_EXTENSION)"
     }
 }
+
